@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
 def save_data(age,sex,dataset,cp,trestbps,chol,fbs,restecg,thalch,exang,oldpeak,slope,ca,thal,num):
-    df = pd.read_csv("userinput.csv")
+    df = pd.read_csv("./SPCK/userinput.csv")
     id = "U"+ str(len(df) + 1)
     data = {
         "id": [id],
